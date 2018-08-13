@@ -143,7 +143,7 @@ kubectl apply -f install/kubernetes/istio-auth.yaml
 
 
 
-kubectl create -f <(istioctl kube-inject -f samples/bookinfo/platform/kube/bookinfo.yaml)
+kubectl create -f <(istioctl kube-inject -f samples/bookinfo/kube/bookinfo.yaml)
 
 
 istioctl create -f samples/bookinfo/kube/route-rule-all-v1.yaml -n default
