@@ -93,7 +93,7 @@ gcloud config list
 # create gke cluster
 gcloud container clusters create apijam \
     --machine-type=n1-standard-2 \
-    --num-nodes=6 \
+    --num-nodes=2 \
     --no-enable-legacy-authorization \
     --cluster-version=1.9
 
