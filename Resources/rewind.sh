@@ -95,7 +95,7 @@ gcloud container clusters create apijam \
     --machine-type=n1-standard-2 \
     --num-nodes=2 \
     --no-enable-legacy-authorization \
-    --cluster-version=1.9
+    --cluster-version=1.11
 
 
 
